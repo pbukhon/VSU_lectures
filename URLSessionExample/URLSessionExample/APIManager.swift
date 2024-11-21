@@ -24,12 +24,15 @@ class APIManager {
             }
             do {
                 let decoder = JSONDecoder()
-                decoder.keyDecodingStrategy = .convertFromSnakeCase
                 let response = try decoder.decode(T.self, from: data)
-                print(response)
+                DispatchQueue.main.async {
+                    completion(.success(response))
+                }
                 
             } catch {
-                print(error)
+                DispatchQueue.main.async {
+                    completion(.failure(error))
+                }
             }
         })
         task.resume()

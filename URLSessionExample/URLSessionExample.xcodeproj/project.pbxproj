@@ -16,6 +16,7 @@
 		1A8B59072CEC7C6E0076CAD7 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B59062CEC7C6E0076CAD7 /* APIManager.swift */; };
 		1A8B590A2CEC7C7E0076CAD7 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B59092CEC7C7E0076CAD7 /* ProductModel.swift */; };
 		1A8B590C2CEC80C90076CAD7 /* ProductsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B590B2CEC80C90076CAD7 /* ProductsManager.swift */; };
+		1A8B590E2CECA10F0076CAD7 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8B590D2CECA10F0076CAD7 /* ProductCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1A8B59062CEC7C6E0076CAD7 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 		1A8B59092CEC7C7E0076CAD7 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		1A8B590B2CEC80C90076CAD7 /* ProductsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsManager.swift; sourceTree = "<group>"; };
+		1A8B590D2CECA10F0076CAD7 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				1A8B58F42CEC7B460076CAD7 /* SceneDelegate.swift */,
 				1A8B58F62CEC7B460076CAD7 /* ViewController.swift */,
 				1A8B59062CEC7C6E0076CAD7 /* APIManager.swift */,
+				1A8B590D2CECA10F0076CAD7 /* ProductCollectionViewCell.swift */,
 				1A8B590B2CEC80C90076CAD7 /* ProductsManager.swift */,
 				1A8B59082CEC7C740076CAD7 /* Model */,
 				1A8B58F82CEC7B460076CAD7 /* Main.storyboard */,
@@ -157,6 +160,7 @@
 			files = (
 				1A8B59072CEC7C6E0076CAD7 /* APIManager.swift in Sources */,
 				1A8B590C2CEC80C90076CAD7 /* ProductsManager.swift in Sources */,
+				1A8B590E2CECA10F0076CAD7 /* ProductCollectionViewCell.swift in Sources */,
 				1A8B58F72CEC7B460076CAD7 /* ViewController.swift in Sources */,
 				1A8B58F32CEC7B460076CAD7 /* AppDelegate.swift in Sources */,
 				1A8B58F52CEC7B460076CAD7 /* SceneDelegate.swift in Sources */,
